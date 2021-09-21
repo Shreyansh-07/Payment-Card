@@ -1,0 +1,113 @@
+body{
+  display:block;
+  position:relative;
+  background-repeat:repeat-x;
+  background-image:url("pattern-background-desktop.svg");
+  background-size:85rem;
+  background-color:hsl(225, 100%, 98%);
+}
+div{
+  display:grid;
+  place-content:center;
+}
+.card{
+  box-shadow:0 3px 5px rgba(2,2,2,0.2),3px 0 5px rgba(2,2,2,0.2) , -3px 0 5px rgba( 2,2,2,0.2) ,0 -1px 1px rgba( 2,2,2,0.2);
+  font-family: sans-serif;
+  width:46vw;
+  border-radius:3%;
+  margin:20vh 45vh ;
+  background-color:rgba(255,254,254,1.0);
+}
+.card_head{
+  padding: 0;
+  width:225px;
+  height:110px;
+  border-radius:3%;
+}
+.card__head__hero{
+  border-top-left-radius:5%;
+  border-top-right-radius:5%;
+}
+.card__heading{
+  margin:5px;
+  border-radius:3%;
+  font-size:1.3rem;
+  font-weight:900;
+}
+.card__description{
+  margin:-3vh 0;
+  margin-top:-7vh;
+  text-align:center;
+  padding:5vh 5vw;
+  color: hsl(224, 23%, 55%);
+}
+.card__priceTag{
+  display:flex;
+  margin-top:5vh;
+  margin-left:5vw;
+  height:10vh;
+  width:35vw;
+  border-radius:5%;
+  background-color:hsl(225, 100%, 98%);
+  padding:2vh 0;
+}
+.card__priceTag__music{
+  margin-right:4vw;
+  margin-left:-3vw;
+}
+.card__priceTag__plan{
+  margin-left:-3vw;
+  margin-right:5vw;
+  font-size:16px;
+}
+.card__priceTag__link{
+  display:grid;
+  text-align:center;
+  margin-top:2vh;
+  font-size:16px;
+  margin-right:-3vw;
+  margin-left:4vw;
+}
+.card__priceTag__price{
+  color:hsl(224, 23%, 55%);
+}
+.card__priceTag__title{
+  font-weight:700;
+}
+.card__confiration{
+  display:inline-block;
+}
+.card__payment{
+  display:inline-block;
+  text-align:center;
+  margin-top:7vh;
+  height:8vh;
+  width:40vw;
+  padding-top:3vh;
+  font-size:18px;
+  background-color:hsl(245, 75%, 52%);
+  color:ivory;
+  text-decoration-line:none;
+  border-radius:5%;
+  font-family:san-serif;
+  font-weight:700;
+  box-shadow:0 5px 5px rgba(2, 2, 2 , 0.2);
+}
+.card__cancel{
+  margin-top:4vh;
+  text-align:center;
+  margin-bottom:9vh;
+  font-size:18px;
+  color: hsl(224, 23%, 55%);
+  text-decoration:none;
+  font-weight:700;
+}
+.card__payment:hover{
+  background-color:#7F79DA;
+}
+.card__cancel:hover{
+  color:hsl(223, 47%, 23%)
+}
+.card__priceTag__link:hover{
+  color:#7480FF;
+}
